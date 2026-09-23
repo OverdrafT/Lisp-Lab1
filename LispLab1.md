@@ -86,7 +86,7 @@ CL-USER> (append my-list (fourth my-list))
 ## Варіант 2
 
 <p align="center">
-<img src="/img/var2.jpg">
+<img src="/img/Var2.jpg">
 </p>
 
 ```lisp
