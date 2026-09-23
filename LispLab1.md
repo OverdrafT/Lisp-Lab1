@@ -92,10 +92,12 @@ CL-USER> (append my-list (fourth my-list))
 ```lisp
 (defun make-variant-list ()
   (let ((sub1 (list 'a 2 1)))
-    (list (car sub1) 'b (cdr sub1) 'c)))
+    (list sub1 'b (cdr sub1) 'c)))
 
 (set 'make-variant-list (make-variant-list))
 
 CL-USER> make-variant-list
+((A 2 1) B (2 1) C)
+```
 (A B (2 1) C)
 ```
