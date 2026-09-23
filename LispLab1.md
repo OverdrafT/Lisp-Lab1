@@ -78,8 +78,8 @@ CL-USER> (consp (fourth my-list))
 T
 
 ;; Пункт 8
-(append my-list (fourth my-list))
-CL-USER> (A 7 NIL (B C) B C)
+CL-USER> (append my-list (fourth my-list))
+(A 7 NIL (B C) B C)
 
 ```
 
