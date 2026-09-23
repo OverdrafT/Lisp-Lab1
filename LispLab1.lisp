@@ -45,6 +45,6 @@
 ;; Оголошення функції для побудови списку за варіантом 2
 (defun make-variant-list ()
   (let ((sub1 (list 'a 2 1)))
-    (list (car sub1) 'b (cdr sub1) 'c)))
+    (list sub1 'b (cdr sub1) 'c)))
 
-(make-variant-list)
+(set 'make-variant-list (make-variant-list))
