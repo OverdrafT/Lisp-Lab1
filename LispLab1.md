@@ -99,5 +99,3 @@ CL-USER> (append my-list (fourth my-list))
 CL-USER> make-variant-list
 ((A 2 1) B (2 1) C)
 ```
-(A B (2 1) C)
-```
